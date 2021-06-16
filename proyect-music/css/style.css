@@ -1,0 +1,78 @@
+/* Tipografias */
+.tpUno{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tpDos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.oye{
+    font-size: 36px !important;
+    position: relative;
+    top: 5px;
+}
+/* NavBar*/
+.navBtn a{
+    max-width: 200px !important;
+}
+.navBtn button{
+    max-width: 200px !important;
+
+}
+
+header{
+    width: 100% !important;
+    margin: auto;
+}
+.bg-gris{
+    background: #eee !important;
+    border-radius: 5px;
+    border: 0px solid #000 !important;
+    padding-bottom: 20px;
+}
+
+/*Sesion*/
+.header-sesion{
+    width: 95vw !important;
+}
+.header-sesion .btn-Sesion{
+    width: 20%;
+}
+
+
+
+
+@media only screen and (min-width: 540px){
+    header{
+        width: 90% !important;
+        margin: auto;
+    }
+
+    /* Sesion */
+    .header-sesion{
+        width: 80vw !important;
+    }
+}
+@media only screen and (min-width: 768px){
+    
+
+    /* Sesion */
+    .header-sesion{
+        width: 60vw !important;
+    }
+}
+@media only screen and (min-width: 1200px){
+    
+
+    /* Sesion */
+    .header-sesion{
+        width: 50vw !important;
+    }
+}
+@media only screen and (min-width: 1600px){
+    
+
+    /* Sesion */
+    .header-sesion{
+        width: 35vw !important;
+    }
+}
